@@ -1,7 +1,5 @@
 package com.urim.engine;
 
-import java.awt.*;
-
 /**
  * Created by urimkrasniqi on 2017-03-05.
  */

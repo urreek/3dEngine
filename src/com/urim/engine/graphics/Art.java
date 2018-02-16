@@ -14,7 +14,6 @@ public class Art {
     public static Bitmap loadBitmap(String fileName) {
         try {
             BufferedImage img = ImageIO.read(Art.class.getResource(fileName));
-
             int w = img.getWidth();
             int h = img.getHeight();
 
