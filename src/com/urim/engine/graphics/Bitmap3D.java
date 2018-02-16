@@ -76,8 +76,8 @@ public class Bitmap3D extends Bitmap {
     }
 
     public void renderLevel(Level level){
-        int width = level.width;
-        int height = level.height;
+        int width = Level.width;
+        int height = Level.height;
         for(int x = -width; x <= width; x++){
             for(int z = -height; z <= height; z++){
                 Block block = level.createBlock(x, z);
@@ -261,8 +261,9 @@ public class Bitmap3D extends Bitmap {
     public void renderFog(){
         for(int i = 0; i < zBuffer.length; i++) {
             double z = zBuffer[i];
-            double xx = i%width - width/2;
-            double yy = i/width - height/2;
+            //Lightning variables that can be used
+            //double xx = i%width - width/2;
+            //double yy = i/width - height/2;
             int color = pixels[i];
 
             int brightness = (int)(50000 / ((z * z)));

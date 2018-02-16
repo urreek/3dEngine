@@ -1,7 +1,5 @@
 package com.urim.engine;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.*;
 
 /**

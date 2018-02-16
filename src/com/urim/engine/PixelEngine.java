@@ -13,7 +13,9 @@ import java.awt.image.DataBufferInt;
 
 public class PixelEngine extends Canvas implements  Runnable {
 
-    public static final String TITLE = Constants.TITLE;
+	private static final long serialVersionUID = 1L;
+	
+	public static final String TITLE = Constants.TITLE;
     public static final int WIDTH = Constants.WIDTH;
     public static final int HEIGHT = Constants.HEIGHT;
 

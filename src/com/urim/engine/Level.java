@@ -2,7 +2,6 @@ package com.urim.engine;
 
 import com.urim.engine.entities.Block;
 import com.urim.engine.entities.SolidBlock;
-import com.urim.engine.utility.Vector2;
 import com.urim.engine.utility.Vector3;
 
 import java.util.Random;
@@ -15,8 +14,8 @@ public class Level {
     public Block[] blocks;
 
     public Level(int width, int height){
-        this.width = width;
-        this.height= height;
+        Level.width = width;
+        Level.height= height;
 
         generateLevel();
     }

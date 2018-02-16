@@ -3,7 +3,6 @@ package com.urim.engine;
 import com.urim.engine.entities.Player;
 import com.urim.engine.scenes.GameScene;
 import com.urim.engine.scenes.IntroScene;
-import com.urim.engine.utility.Vector3;
 
 import javax.swing.*;
 import java.awt.event.WindowEvent;

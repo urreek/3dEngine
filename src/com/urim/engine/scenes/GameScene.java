@@ -3,8 +3,6 @@ package com.urim.engine.scenes;
 import com.urim.engine.Game;
 import com.urim.engine.graphics.Bitmap;
 
-import java.awt.*;
-
 /**
  * Created by urimkrasniqi on 2017-03-04.
  */
